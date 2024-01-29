@@ -55,6 +55,10 @@
   color: #fff;
 }
 
+.routing-header a:hover {
+    color: #a90262;
+}
+
 .admission-btn {
   padding: 0.7rem 1rem;
   border: none;
@@ -103,6 +107,85 @@
   font-weight: 900;
 }
 
+.sticky-card {
+  width: 800px;
+  height: 220px;
+  border-radius: 1rem 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 650px;
+  right: 80px;
+}
+.sticky-card-1 {
+  background-color: #a90262;
+  border-radius: 3rem 0 0 0;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.sticky-card-2 {
+  background-color: #1c3e95;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.sticky-card-3 {
+  background-color: #1f3a7e;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.second-section-main {
+  padding: 15rem 5rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.second-section-main img {
+  width: 360px;
+}
+
+.second-section-main h1 {
+  color: #222;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.second-section-main h2 {
+  color: #222;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.second-section-main h3 {
+  color: brown;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.second-section-main p {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.about-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-container {
   width: 100%;
   height: 400px;
@@ -147,6 +230,20 @@
   font-size: 1.5rem;
   letter-spacing: 0.04rem;
   color: #fff;
+}
+
+.footer-link p {
+  margin: 10px 0 10px 0;
+}
+
+.footer-link a {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.footer-link a:hover {
+  color: #a90262;
 }
 
 .copyright-container {
