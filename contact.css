@@ -13,20 +13,71 @@
 }
 
 .contact-card i {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
 }
 
 .contact-card h3 {
-    color: rgb(60, 60, 152);
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
+  color: rgb(60, 60, 152);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
 }
 
 .contact-card h2 {
-    color: #333;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem   
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.contact-page-third-section {
+  width: 670px;
+  height: 550px;
+  padding: 3rem;
+  margin: 2rem auto;
+  
+  background-color: #1c3e95;
+  border-radius: 1.25rem;
+}
+
+.contact-page-third-section h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contact-page-third-section button {
+  width: 570px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #a90262;
+  font-size: 1.5rem;
+  letter-spacing: 0.04rem;
+  color: #fff;
+}
+
+.contact-input input {
+  width: 280px;
+  height: 60px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.15rem;
+  outline: none;
+}
+
+.contact-input textarea {
+  width: 570px;
+  height: 140px;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
 }
