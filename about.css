@@ -1,0 +1,37 @@
+.first-section-main {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(14, 28, 66, 0.9), rgba(16, 30, 70, 0.9)),
+    url(img/arlington-research-kN_kViDchA0-unsplash.jpg);
+  background-position: center;
+  text-align: center;
+  display: flex;
+}
+
+.first-section-text-container {
+  margin: auto;
+}
+
+.first-section-text-container h1 {
+  color: #fff;
+  font-size: 4.3rem;
+  font-weight: 800;
+}
+
+.first-section-text-container p {
+  color: #fff;
+  margin-left: 0.15rem;
+}
+
+.first-section-text-container a {
+  text-decoration: none;
+  color: rgb(240, 132, 150);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.first-section-text-container a:hover {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
