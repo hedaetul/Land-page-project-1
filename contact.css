@@ -1,0 +1,32 @@
+.contact-page-seconde-section {
+  display: flex;
+}
+
+.contact-card {
+  width: 425px;
+  height: 280px;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+  border: 2px dotted #ddd;
+  border-radius: 0.25rem;
+}
+
+.contact-card i {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-card h3 {
+    color: rgb(60, 60, 152);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.contact-card h2 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem   
+}
